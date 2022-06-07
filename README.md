@@ -1,7 +1,7 @@
 # acoustic-toolbox
 public Github port of the official Acoustics Toolbox provided at [oalib.hlsresearch.com/AcousticsToolbox](https://oalib.hlsresearch.com/AcousticsToolbox)
 
-### changes needed to run properly
+### changes to run
 My system is Ubuntu 22.04 and Matlab 2020b; I had to fix where the MATLAB gfortran library was pointing towards. You can read more about this [here](https://stackoverflow.com/questions/9628273/libgfortran-version-gfortran-1-4-not-found). Check what package of MATLAB and gfortran you are using to modify the following bash commands as needed.
 
 	cd /usr/local/MATLAB/R2020b/sys/os/glnxa64
@@ -9,15 +9,17 @@ My system is Ubuntu 22.04 and Matlab 2020b; I had to fix where the MATLAB gfortr
 
 ### how to use this repo
 
-1. Download this repo by cloning it or as a zipfile. This contains executables!
+1. Download this repo by cloning it or as a zipfile. This contains executables! If you want to re-compile for yourself (command line):
 
-If you want to re-compile for yourself:
-	rm -rf bin/
-	mkdir bin/
-	make all
-	make install
+		rm -rf bin/
+		mkdir bin/
+		make all
+		make install
 
-2. Test in MATLAB.
-	which kraken
-	which kraken.exe
-	kraken MunkK
+2. Open the startup.m file for MATLAB. If you've never done that before, you can do `open startup` in MATLAB's command window.
+3. Add `addpath(genpath('path/to/acoustic-toolbox'));`
+4. Test in MATLAB!
+
+		which kraken
+		which kraken.exe
+		kraken MunkK
