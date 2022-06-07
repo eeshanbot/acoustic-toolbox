@@ -23,3 +23,25 @@ My system is Ubuntu 22.04 and Matlab 2020b; I had to fix where the MATLAB gfortr
 		which kraken
 		which kraken.exe
 		kraken MunkK
+		
+### quick description (needs work)
+
+#### BELLHOP
+ray tracing program
+
+#### KRAKEN
+_real_ normal modes
+
+#### KRAKENC
+_complex_ normal modes
+
+#### RAMGEO
+low frequency transmission loss in range-dependent envionments w/ _fluid_ seabeds
+
+#### RAMSGEO
+low frequency transmission loss in range-dependent envionments w/ _elastic_ seabeds
+
+#### SCOOTER
+depth dependent Greens function for range-independent environments
+
+It should be noted that KRAKEN and KRAKENC access FIELD; SCOTTER access FIELDS.
