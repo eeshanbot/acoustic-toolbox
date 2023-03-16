@@ -17,7 +17,7 @@ My system is Ubuntu 22.04 and Matlab 2020b; I had to fix where the MATLAB gfortr
 		make install
 
 2. Open the startup.m file for MATLAB. If you've never done that before, you can do `open startup` in MATLAB's command window.
-3. Add `addpath(genpath('path/to/acoustic-toolbox'));`
+3. Add `addpath(genpath('YOUR/PATH/TO/acoustic-toolbox'));`
 4. Test in MATLAB!
 
 		which kraken
