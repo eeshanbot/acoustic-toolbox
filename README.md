@@ -24,7 +24,7 @@ My system is Ubuntu 22.04 and Matlab 2020b; I had to fix where the MATLAB gfortr
 		which kraken.exe
 		kraken MunkK
 		
-### quick description (needs work)
+### quick description
 
 #### BELLHOP
 ray tracing program
@@ -44,4 +44,4 @@ low frequency transmission loss in range-dependent envionments w/ _elastic_ seab
 #### SCOOTER
 depth dependent Greens function for range-independent environments
 
-It should be noted that KRAKEN and KRAKENC access FIELD; SCOTTER access FIELDS.
+It should be noted that KRAKEN and KRAKENC access FIELD; SCOOTER access FIELDS.
